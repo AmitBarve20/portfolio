@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/Design uten navn.png';
+import heroImg from '../../assets/avatar_c.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import twitterLight from '../../assets/twitter-light.svg';
@@ -55,8 +55,8 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+        I am versatile UI/UX designer, web developer, and graphic designer dedicated to creating seamless digital
+        experiences.
         </p>
         <a href={CV} target="_blank" rel="noopener noreferrer">
           <button className="hover">Resume</button>

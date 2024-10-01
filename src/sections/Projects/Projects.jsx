@@ -1,5 +1,5 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
+import viberr from '../../assets/banking app.webp';
 import freshBurger from '../../assets/fresh-burger.png';
 import hipsster from '../../assets/hipsster.png';
 import fitLift from '../../assets/fitlift.png';
@@ -12,25 +12,25 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          link="https://www.figma.com/design/3gFcwGHvbx1r5FY8ocNwng/Portfolio?node-id=0-1&t=MO093RdOtOeUjr9z-1"
+          h3="Cashflow"
+          p="Digital Banking App"
         />
         <ProjectCard
           src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://www.figma.com/design/3gFcwGHvbx1r5FY8ocNwng/Portfolio?node-id=0-1&t=MO093RdOtOeUjr9z-1"
           h3="Fresh Burger"
           p="Hamburger Restaurant"
         />
         <ProjectCard
           src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://www.figma.com/design/3gFcwGHvbx1r5FY8ocNwng/Portfolio?node-id=0-1&t=MO093RdOtOeUjr9z-1"
           h3="Hipsster"
           p="Glasses Shop"
         />
         <ProjectCard
           src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://www.figma.com/design/3gFcwGHvbx1r5FY8ocNwng/Portfolio?node-id=0-1&t=MO093RdOtOeUjr9z-1"
           h3="FitLift"
           p="Fitness App"
         />
