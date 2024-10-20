@@ -23,7 +23,7 @@ function Projects() {
           p="Hamburger Restaurant"
         />
         <ProjectCard
-          src={hipsster}
+          src={fitLift}
           link="https://www.figma.com/design/3gFcwGHvbx1r5FY8ocNwng/dashboard?node-id=1-3578&t=0xqtXtrBTGAKqpVw-1"
           h3="dashboard"
           p="Glasses Shop"
