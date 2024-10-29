@@ -80,11 +80,13 @@ input[type='submit']:active {
 
 
 .popover {
+
+  font-family: 'Roboto Mono', monospace;
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #333;
-  color: #fff;
+  background-color: #fff;
+  color: #333;
   padding: 10px 20px;
   border-radius: 5px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);

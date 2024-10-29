@@ -3,16 +3,16 @@ import styles from './ContactStyles.module.css';
 
 function Contact() {
   const [result, setResult] = useState("");
-  const [isSubmitting, setIsSubmitting] = useState(false); 
-  const [showPopover, setShowPopover] = useState(false); 
+  const [isSubmitting, setIsSubmitting] = useState(false); // State to handle button disable
+  const [showPopover, setShowPopover] = useState(false); // State to handle popover visibility
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    setResult("Sending...");
-    setIsSubmitting(true);  button
+    console.log("Sending...");
+    setIsSubmitting(true); // Disable the submit button
     const formData = new FormData(event.target);
 
-   
+    // Append access key
     formData.append("access_key", "ad586a9f-e5cd-4e0f-b726-0040a038a849");
 
     try {
@@ -24,10 +24,10 @@ function Contact() {
       const data = await response.json();
 
       if (data.success) {
-        
+        console.log("Form Submitted Successfully");
         event.target.reset();
-        setShowPopover(true); 
-        setTimeout(() => setShowPopover(false), 2000); 
+        setShowPopover(true); // Show popover message
+        setTimeout(() => setShowPopover(false), 5000); // Hide popover after 2 seconds
       } else {
         setResult("Submission Failed: " + data.message);
       }
@@ -36,7 +36,7 @@ function Contact() {
       setResult("An error occurred. Please try again.");
     }
 
-    
+    // Re-enable the submit button after 2 seconds
     setTimeout(() => {
       setIsSubmitting(false);
     }, 2000);
@@ -79,12 +79,12 @@ function Contact() {
           className="hover btn" 
           type="submit" 
           value="Submit" 
-          disabled={isSubmitting} 
+          disabled={isSubmitting} // Disable button if submitting
         />
       </form>
       <span>{result}</span>
 
-    
+      {/* Popover Window */}
       {showPopover && (
         <div className={styles.popover}>
           Thanks for contacting me! I will get back to you ASAP.
