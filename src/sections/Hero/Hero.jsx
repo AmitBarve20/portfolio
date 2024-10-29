@@ -8,17 +8,17 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import behance from '../../assets/behance.svg'
-import behanceDark from '../../assets/behanceDark.svg'
+import behanceLight from '../../assets/behance.svg'
+import behanceDark from '../../assets/behanceDark.png'
 
 
-import CV from '../../assets/AB_resume.pdf';
+import CV from '../../assets/Amit_Barve_ Detailed.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
   const { theme, toggleTheme } = useTheme();
   
-  // const behance = theme === 'light' ? behance : behanceDark;
+  const behance = theme === 'light' ? behanceLight : behanceDark;
   const themeIcon = theme === 'light' ? sun : moon;
   const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
   const githubIcon = theme === 'light' ? githubLight : githubDark;
