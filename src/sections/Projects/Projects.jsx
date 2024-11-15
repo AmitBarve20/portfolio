@@ -12,7 +12,7 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={banking}
-          link="https://www.figma.com/design/ARfR0hx9dA0IoU5vD2nnfY/Banking-app?node-id=0-1&t=kWC0mSW2C7EwcRsO-1"
+          link="https://www.behance.net/gallery/211971595/IOS-Banking-Application-UI-design"
           h3="Cashflow"
           p="Digital Banking App"
         />
