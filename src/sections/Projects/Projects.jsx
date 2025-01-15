@@ -4,6 +4,9 @@ import musicapp from '../../assets/musicapp.webp';
 import webiste from '../../assets/website.webp';
 import crypto from '../../assets/crypto.webp';
 import ProjectCard from '../../common/ProjectCard';
+import webeeyo from '../../assets/webeeyo.jpg';
+
+
 
 function Projects() {
   return (
@@ -17,10 +20,10 @@ function Projects() {
           p="Digital Banking App"
         />
         <ProjectCard
-          src={musicapp}
-          link="https://www.figma.com/design/vWs5RYrpQYrlUQ2VnQVwjr/Music-App?node-id=0-1&t=nkHc3BWXG2N6Itvy-1"
-          h3="Music app"
-          p="Morden Bhakti"
+          src={webeeyo}
+          link="https://www.behance.net/gallery/216919847/Website-Redesign"
+          h3="Website Redesign"
+          p="Webeeyo Softwares"
         />
         <ProjectCard
           src={crypto}
