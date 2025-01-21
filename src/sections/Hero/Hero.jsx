@@ -12,7 +12,7 @@ import behanceLight from '../../assets/behance.svg'
 import behanceDark from '../../assets/behanceDark.png'
 
 
-import CV from '../../assets/Amit_Barve_ Detailed.pdf';
+import CV from '../../assets/AmitResume.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
