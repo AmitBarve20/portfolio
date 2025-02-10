@@ -182,7 +182,7 @@ export default function Page() {
                 <textarea
                   placeholder="Your Message"
                   className="border rounded-md p-2 w-full max-w-xs"
-                  rows="4"
+                  //
                   required
                 />
                 <button
