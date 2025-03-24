@@ -83,7 +83,7 @@ export const DATA = {
       start: "January 2025",
       end: "Present",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Designing intuitive UI for various Tech Mahindra products,ensuring a seamless user experience.Leading the concept design for an upcoming game, focusing onuser engagement and interaction.",
     },
     {
       company: "WORO Media",

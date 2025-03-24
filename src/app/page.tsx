@@ -166,24 +166,27 @@ export default function Page() {
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Just fill the form ! 
               </p>
-              <form className="flex flex-col items-center space-y-4">
-                <input
-                  type="text"
+              <form className="flex flex-col items-center space-y-4" action="https://getform.io/f/ff4e3208-7a3a-4704-8b93-bbf98f9a0a32" method="POST">
+                <input type="text"
+                  name="name"
                   placeholder="Your Name"
                   className="border rounded-md p-2 w-full max-w-xs"
                   required
                 />
-                <input
-                  type="email"
+                <input 
+                  type="email" 
+                  name="email"
                   placeholder="Your Email"
                   className="border rounded-md p-2 w-full max-w-xs"
                   required
                 />
-                <textarea
+                <input 
+                  type="text"
                   placeholder="Your Message"
-                  className="border rounded-md p-2 w-full max-w-xs"
+                  className="border rounded-md p-2 w-full max-w-xs pb-20"
                   //
                   required
+                  
                 />
                 <button
                   type="submit"
